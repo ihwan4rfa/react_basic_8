@@ -1,0 +1,139 @@
+html {
+    background-color: black;
+}
+
+.layout {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    padding: 10px 10px;
+    margin: 10px 0;
+    border-radius: 999px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.layout-detail {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px 10px;
+    margin: 10px 0;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.layout-addmenu {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px 10px;
+    margin: 10px 0;
+    border-radius: 50px;
+    background-color: white;
+    padding: 40px 400px;
+}
+
+.add-menu {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-style {
+    border: none;
+    background-color: #ececec;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.login {
+    color: white;
+}
+
+.login-layout {
+    display: flex;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+
+.link:hover {
+    color: orange;
+}
+
+.text-layout {
+    margin-left: 20px;
+    color: black;
+}
+
+.text-layout h1:hover {
+    color: orange;
+}
+
+.layout img {
+    width: 100px;
+    height: 100px;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.layout-detail img {
+    width: 200px;
+    height: 200px;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.layout-detail button {
+    background-color: red;
+    border: none;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.layout-addmenu button {
+    background-color: green;
+    border: none;
+    padding: 5px 50px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.layout h1 {
+    font-size: 25px;
+}
+
+.button-layout {
+    display: flex;
+    justify-content: center;
+}
+
+.button-layout button {
+    background-color: white;
+    border-width: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.button-layout button:hover {
+    background-color: #e9810b;
+    color: white;
+}
